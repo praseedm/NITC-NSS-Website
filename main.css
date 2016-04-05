@@ -1,0 +1,15 @@
+#slideshow{
+  left:0px;
+  height: 500px;
+  background-color: #000;
+  color: #fff;
+}
+#message{
+  height: 220px;
+  background-color: #7F7;
+  float: none;
+  text-align: center;
+}
+.slide{
+  margin: 0px;
+}

@@ -1,0 +1,21 @@
+#content{
+    background-color: #000;
+}
+.bands{
+  padding: 100px;
+}
+#Nss_about_band{
+  background-color: #020;
+  color:#fff;
+}
+#Nss_cell_band{
+    background-color: #eee;
+    color:#000;
+}
+.big_guy{
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+.matter{
+  text-indent: 100px;
+}
