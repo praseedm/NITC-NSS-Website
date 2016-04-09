@@ -7,45 +7,48 @@
   <script src="base.js"></script>
 </head>
 <body>
+  <!--FB STUFF-->
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5&appId=645157215524967";
+  fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
+  <!--END OF FB STUFF-->
+
   <div id="top-bar">
   </div>
-    <img id="nss" src="nss.png"></img>
-  <div id="header">
-    <div id="heading">NSS NIT Calicut</div>
-    <div id="option_bar">
-    </div>
+  <img id="nss" src="nss_logo.png"></img>
+<div id="header">
+  <div id="heading_l"><b>NSS</b></div>
+    <div id="heading_r"><b>NITC</b></div>
+  <div id="option_bar">
   </div>
-  <div id="content" style="padding:50px;background-color:#020;">
-<div class="big_guy" style="color:#fff;">NSS Office Bearers</div>
-<div class="matter" style="color:#fff ">
-  <br>
-Programme Coordinator NSS Cell- Dr. George K. Varghese (CED)
-<br>
-<br>
-Programme Officer, Unit 1- Dr. Sujith A. (Chemistry)
-<br>
-<br>
-Programme Officer, Unit 2- Dr. Chithra A. V (Maths)
-<br>
-<br>
-Programme Officer, Unit 3- Mr. L. Gangadhara Kiran Kumar (MED)
-<br>
-<br>
-Programme Officer, Unit 4- Mr. A. P. Sudheer (MED)
-<br>
-<br>
-Student Coordinator, NSS Cell- Jasir M V (B110123EE)
-<br>
-<br>
-Student Treasurer, NSS Cell- Arjun Madhavankutty (B110075EP)
-<br>
-<br>
-
 </div>
   </div>
-  <div id="footer">
-    Made by Amal Jose.
-    The old site <a href="old/index.html">here</a>
+  <div class="bs">
+    <p style="align:left;"><h2>Programme Coordinator NSS Cell</h2>- Dr. George K. Varghese (CED)
+      <h2>Programme Officer, Unit 1</h2>- Dr. Sujith A. (Chemistry)
+      <h2>Programme Officer, Unit 2</h2>- Dr. Chithra A. V (Maths)
+      <h2>Programme Officer, Unit 3</h2>- Mr. L. Gangadhara Kiran Kumar (MED)
+      <h2>Programme Officer, Unit 4</h2>- Mr. A. P. Sudheer (MED)
+      <h2>Student Coordinator </h2>- Shabnas C  <br>contact no: +919633130546
+      <h2>Treasurer</h2>Najath Pathiyil <br>contact no : +919746882999
+      <h2>Activity Coordinator</h2>Rabeeh P <br>contact no : +919846228834
+    </p>
+    
+  </div>
+  <div id="footer" style="padding-top:20px">
+    <div id="fb_like_button" class="fb-like"
+        data-href="https://www.facebook.com/NSS.NITC/"
+        data-layout="standard"
+        data-action="like"
+        data-show-faces="false">
+    </div>
+    <img src="nitc_logo.png" id="foot_img"></img>
   </div>
 </body>
 </html>

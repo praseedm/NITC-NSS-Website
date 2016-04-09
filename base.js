@@ -1,7 +1,7 @@
 var t=1;
 
-var option_list=['Home','About Us','Blog','Activities','Contact Us',"Gallery"];
-var address_list=["index.html","about_us.html","http://nssnitc.wordpress.com","activities.html","contact_us.html","gallery.html"];
+var option_list=['Home','Activities',"Gallery",'Blog','About Us','Contact Us'];
+var address_list=["index.html","activities.html","gallery.html","http://nssnitc.wordpress.com","about_us.html","contact_us.html"];
 function filloptions(t,call){
   for(var i=0;i<t;i++){
       var element=$("<a id=\"opt"+i+"\" class=\"option_unselected\" href=\""+address_list[i]+"\" >"+option_list[i]+"</span>");
@@ -30,6 +30,10 @@ function scrollhandler(y){
     $("#top-bar").fadeOut();
   }
 }
+
+
+
+
 $(document).ready(function(){
   filloptions(6,function(){
     menuhandler();

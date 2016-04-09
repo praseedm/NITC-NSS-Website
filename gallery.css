@@ -1,0 +1,9 @@
+#slideshow{
+  left:0px;
+  background: url(pattern_light.png) repeat;
+}
+#slideshow_text{
+  margin-left: 50%;
+  margin-top: -20%;
+  font-size: 60px;
+}

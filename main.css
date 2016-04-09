@@ -1,14 +1,22 @@
 #slideshow{
   left:0px;
-  height: 500px;
-  background-color: #000;
-  color: #fff;
+  background: url(pattern_light.png) repeat;
 }
 #message{
   height: 220px;
   background-color: #7F7;
   float: none;
   text-align: center;
+}
+#cube_image{
+  width:300px;
+  margin-left: 100px;
+  margin-top:25px;
+}
+#slideshow_text{
+  margin-left: 45%;
+  margin-top: -25%;
+  font-size: 60px;
 }
 .slide{
   margin: 0px;

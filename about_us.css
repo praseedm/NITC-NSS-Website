@@ -5,7 +5,7 @@
   padding: 100px;
 }
 #Nss_about_band{
-  background-color: #020;
+  background: #006d35 ;
   color:#fff;
 }
 #Nss_cell_band{
@@ -17,5 +17,6 @@
   margin-bottom: 10px;
 }
 .matter{
+  font-weight: bold;
   text-indent: 100px;
 }

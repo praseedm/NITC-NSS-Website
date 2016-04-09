@@ -1,20 +1,37 @@
-<html>
+c<html>
 <head>
   <!--<link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,300,700' rel='stylesheet' type='text/css'>-->
   <link rel="stylesheet" href='base.css'>
   <link rel="stylesheet" href='about_us.css'>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <script src="jquery.js"></script>
   <script src="base.js"></script>
 </head>
 <body>
+
+
+  <!--FB STUFF-->
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5&appId=645157215524967";
+  fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
+  <!--END OF FB STUFF-->
+
   <div id="top-bar">
   </div>
-    <img id="nss" src="nss.png"></img>
-  <div id="header">
-    <div id="heading">NSS NIT Calicut</div>
-    <div id="option_bar">
-    </div>
+  <img id="nss" src="nss_logo.png"></img>
+<div id="header">
+  <div id="heading_l"><b>NSS</b></div>
+    <div id="heading_r"><b>NITC</b></div>
+  <div id="option_bar">
   </div>
+</div>
+<br>
   <div id="content">
     <div class="bands" id="Nss_about_band">
       <div class="big_guy">About NSS</div><br>
@@ -28,9 +45,14 @@
             The NSS Cell at NIT Calicut has four Units working under it. One of the major activities undertaken is the weekly classes for the under privileged students from nearby areas, as well as regular classes during weekends for higher secondary students of nearby school. The Institute has allotted vacant lands to NSS for carrying out farming activities. NSS cell of NITC has taken lead in constructing a 500 Sq ft. house for a desolate lady living near our campus.
       </div>
     </div>
-    <div id="footer">
-      Made by Amal Jose.
-      The old site <a href="old/index.html">here</a>
+    <div id="footer" style="padding-top:20px">
+      <div id="fb_like_button" class="fb-like"
+          data-href="https://www.facebook.com/NSS.NITC/"
+          data-layout="standard"
+          data-action="like"
+          data-show-faces="false">
+      </div>
+      <img src="nitc_logo.png" id="foot_img"></img>
     </div>
   </div>
 

@@ -1,3 +1,21 @@
+img {
+    image-rendering: optimizeSpeed;             /* STOP SMOOTHING, GIVE ME SPEED  */
+    image-rendering: -moz-crisp-edges;          /* Firefox                        */
+    image-rendering: -o-crisp-edges;            /* Opera                          */
+    image-rendering: -webkit-optimize-contrast; /* Chrome (and eventually Safari) */
+    image-rendering: pixelated; /* Chrome */
+    image-rendering: optimize-contrast;         /* CSS3 Proposed                  */
+    -ms-interpolation-mode: nearest-neighbor;   /* IE8+                           */
+
+}
+.bs{
+  background: #006d35;
+  color:#fff;
+  padding: 20px;
+  float: left;
+  width: 100%;
+}
+
 @font-face {
   font-family: 'Josefin Sans';
   font-style: normal;
@@ -21,24 +39,32 @@ body{
   background-color: #fff;
   opacity: 0.9;
   display: none;
+  z-index: 5;
 }
 #header{
   text-align: left;
+  height: 230px;
 }
 #nss{
   width:125px;
   height: 125px;
   position: absolute;
-  margin: 20px;
+  left:45%;top:30px;
 }
-#heading{
-  margin-left: 150px;
+#heading_l{
+  margin-left: 31%;
   padding: 50px;
   background-color: #fff;
   font-size: 50px;
 }
+#heading_r{
+  margin-left: 56%;
+  margin-top: -118px;
+  background-color: #fff;
+  font-size: 50px;
+}
 #option_bar{
-  margin-left: 150px;
+  margin-top: 75px;
   padding: 15px;
   text-align: center;
   background-color: #fff;
@@ -120,6 +146,22 @@ body{
 #footer{
   text-align: center;
   height:80px;
-  background-color: #000;
-  color: #efe;
+  background-color: #fff;
+  color: #000;
+}
+
+#fb_like_button{
+  margin-top: 20px;
+  margin-left: 20px;
+  border-style: solid;
+  border-color: #0ef;
+  border-width: medium;
+  float: left;
+  width:100px;
+  height:30px;
+}
+#foot_img{
+  height: 70px;
+  float: right;
+  margin-right: 40px;
 }

@@ -3,32 +3,49 @@
   <!--<link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,300,700' rel='stylesheet' type='text/css'>-->
   <link rel="stylesheet" href='base.css'>
    <link rel="stylesheet" href='main.css'>
+   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <script src="jquery.js"></script>
   <script src="base.js"></script>
  <script src="main.js"></script>
 </head>
 <body>
+
+  <!--FB STUFF-->
+  <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5&appId=645157215524967";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!--END OF FB STUFF-->
     <div id="top-bar">
     </div>
-      <img id="nss" src="nss.png"></img>
-    <div id="header">
-      <div id="heading">NSS NIT Calicut</div>
-      <div id="option_bar">
-      </div>
+     <div id="pager">
+    <img id="nss" src="nss_logo.png"></img>
+  <div id="header">
+    <div id="heading_l"><b>NSS</b></div>
+    <div id="heading_r"><b>NITC</b></div>
+    <div id="option_bar">
     </div>
-    <div id="content">
+  </div>
+  </div>
+  <br>
+    <div>
       <div id="slideshow">
-        <img class="slide" id="slide0" src="slide0.png">
-        <img class="slide" id="slide1" src="slide1.png">
-        <img class="slide" id='slide2' src="slide2.png">
+          <img id="cube_image" src="cube.png"></img>
+          <img id="slideshow_text" src="letsolve.png"></img>
       </div>
-    <!--  <div id=message>
-        Our sole aim is to motivate students at NITC to indulge in nation building activities through various events and projects which are aimed towards the benefit of people in and around NIT Calicut.
-      </div>-->
-      <div id="footer">
-        Made by Amal Jose.
-        The old site <a href="old/index.html">here</a>
+      <br>
+      <div id="fb_like_button" class="fb-like"
+          data-href="https://www.facebook.com/NSS.NITC/"
+          data-layout="standard"
+          data-action="like"
+          data-show-faces="false">
       </div>
-    </div>
+      <img src="nitc_logo.png" id="foot_img"></img>
+  </div>
 </body>
 </html>
